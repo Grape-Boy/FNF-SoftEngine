@@ -1,5 +1,5 @@
 # How dialogue files work?
-### Example
+**Example:**
 ```
 psychic:left bf:right
 :0:talk:0.05:normal:What brings you here so late at night?
@@ -13,7 +13,7 @@ psychic:left bf:right
 :0:angry:0.1:normal:And you WILL answer them.
 ```
 
-### What does every line do?
+**What does every line do?**
 * The first line will define the characters you will use on the dialogue
   * First value is the character
   * Second value is the character's position ("left", "center" or "right")
