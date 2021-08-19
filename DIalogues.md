@@ -26,6 +26,7 @@ psychic:left bf:right
   * Text speed, default is 0.05 (20 characters per second)
   * Speech bubble type ("normal" or "angry")
   * Text. Warning! Don't use this kind of quote: `’`, use this instead: `'`
+______________________________________
 
 # Making your Song trigger a dialogue
 **1.** First off, you need to name your dialogue file as your song name + "Dialogue.txt". If my song is called `focus`, the dialogue file then should be named `focusDialogue.txt`.
