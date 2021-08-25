@@ -1,3 +1,6 @@
+# Running a script
+The script file must be named `script.lua` and put inside the song's chart folder.
+
 # Variables
 ## Lua variables
 * `luaDebugMode` - Enables debug mode, or should enable it, if i didn't had forgot to make the Debug mode work, oops. Default value: `false`
