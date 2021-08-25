@@ -42,3 +42,9 @@ Go to `assets/data/` and open characterList.txt
 Type in your character name and save:
 
 ![](https://i.imgur.com/T7FyxGw.png)
+
+# Final Result
+
+Open Chart Editor and set the Boyfriend/Opponent as your new character, if everything was done correctly it should be working just fine.
+
+![](https://i.imgur.com/Bd6f3GW.png)
