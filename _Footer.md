@@ -1,0 +1,1 @@
+![Template Script](https://cdn.discordapp.com/attachments/866856727621795850/880169106047905832/TemplateScript.lua)
