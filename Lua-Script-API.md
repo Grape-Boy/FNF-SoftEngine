@@ -73,7 +73,7 @@ The script file must be named `script.lua` and put inside the song's chart folde
 * `lowQuality` - Shortcut to `getPropertyClass('ClientPrefs', 'lowQuality')`
 _______________________
 # Functions
-## Fun Functions
+## 4 Fun Functions
 ### addScore(value:Int = 0)
 Adds `value` to the current song's score and recalculates rating
 _______________________
@@ -92,31 +92,26 @@ _______________________
 ### setHits(value:Int = 0)
 Set the current song's notes hit total to `value` and recalculates rating
 _______________________
-### getColorFromHex(color:String)
-Get the color decimal ID from an Hexadecimal value (`color`).
-
-Example: To get orange, you should use `getColorFromHex('FF7800')` or getColorFromHex('0xFFFF7800')
-_______________________
-### keyJustPressed(name:String)
-Get if the key `name` just got pressed on the current frame.
-
-Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'accept'`, `'back'`, `'pause'`, `'reset'`
-_______________________
-### keyPressed(name:String)
-Get if the key `name` is being held on the current frame.
-
-Keys: `'left'`, `'down'`, `'up'`, `'right'`
-_______________________
-### keyReleased(name:String)
-Get if the key `name` was released on the current frame.
-
-Keys: `'left'`, `'down'`, `'up'`, `'right'`
-_______________________
 ### triggerEvent(name:String, arg1:String, arg2:String)
 Triggers an event without you having to chart them.
 * `name` - Event name on Chart Editor
 * `arg1` - Value 1 on Chart Editor
 * `arg2` - Value 2 on Chart Editor
+
+### playSound(name:String)
+
+_______________________
+## Precaching Functions
+
+### addCharacterToList(name:String, type:String)
+Creates a character for the `'Change Character'` event.
+* `name` - Character name, example: `pico-player`, `mom-car`, `gf`, etc.
+* `type` - Character type, 'boyfriend' for player, 'dad' for opponent, 'gf' for girlfriend.
+
+This is mainly used for avoiding a massive game freeze when the character is changed.
+
+It's highly recommended that you use this function on the `onCreate()` callback.
+
 _______________________
 ## Value/Array/Group functions
 ### getProperty(variable:String)
@@ -169,6 +164,7 @@ _______________________
 Works similar to `setProperty`, but can be used to access a variable inside a Class other than PlayState.
 
 Example: To make the mouse visible, you should use `getPropertyFromClass('FlxG', 'mouse.visible', true)`.
+
 _______________________
 ## Tweens/Timer Functions
 NOTE: [Click here to see the list of Tween Eases.](https://api.haxeflixel.com/flixel/tweens/FlxEase.html)
@@ -181,7 +177,7 @@ Do a Tween on an object's X value
 * `value` - Target value on the tween end
 * `duration` - How much time it will take for the tween to end
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
-* `delay` - Time to wait before the tween starts
+* `delay` - Optional, time to wait before the tween starts
 
 Example: To do a tween to Boyfriend's Scale X, you should use `doTweenX('bfScaleTweenX', 'boyfriend.scale', 1.5, 1, 'elasticInOut')`, when the tween ends, it will do a callback for `onTweenCompleted('bfScaleTweenX')`
 _______________________
@@ -206,6 +202,42 @@ Do a Tween on an object's color
 * `targetColor` - The color the object will have when the tween ends (Must be in hexadecimal!)
 * `duration` - How much time it will take for the tween to end
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
-* `delay` - Time to wait before the tween starts
+* `delay` - Optional, time to wait before the tween starts
 
 Example: To tween Boyfriend's color to Red, you should use `doTweenX('bfColorTween', 'boyfriend', 'FF0000, 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
+_______________________
+### runTimer(tag:String, time:Float = 1, loops:Float = 1)
+Runs a timer with a determined duration and loops count.
+
+**Calling this function will cancel another timer that is using the same tag!**
+* `tag` - Once the timer is finished, it will do a callback of `onTimerCompleted(tag, loops, loopsLeft)`
+* `time` - Optional value, how much time it takes to finish a loop. Default value is `1`
+* `loops` - Optional value, how much loops should it do, if it's set to 0, it will repeat indefinitely. Default value is `1`
+_______________________
+### cancelTween(tag)
+Cancels a tween using the tag `tag`, if there even is one.
+_______________________
+### cancelTimer(tag)
+Cancels a timer using the tag `tag`, if there even is one.
+
+_______________________
+## Useful Functions
+### keyJustPressed(name:String)
+Get if the key `name` just got pressed on the current frame.
+
+Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'accept'`, `'back'`, `'pause'`, `'reset'`
+_______________________
+### keyPressed(name:String)
+Get if the key `name` is being held on the current frame.
+
+Keys: `'left'`, `'down'`, `'up'`, `'right'`
+_______________________
+### keyReleased(name:String)
+Get if the key `name` was released on the current frame.
+
+Keys: `'left'`, `'down'`, `'up'`, `'right'`
+_______________________
+### getColorFromHex(color:String)
+Get the color decimal ID from an Hexadecimal value (`color`).
+
+Example: To get orange, you should use `getColorFromHex('FF7800')` or getColorFromHex('0xFFFF7800')
