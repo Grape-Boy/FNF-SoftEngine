@@ -71,8 +71,53 @@ The script file must be named `script.lua` and put inside the song's chart folde
 * `flashingLights` - Shortcut to `getPropertyClass('ClientPrefs', 'flashing')`
 * `noteOffset` - Represents the note delay in milliseconds (Goes from `0` to `500`). Shortcut to `getPropertyClass('ClientPrefs', 'noteOffset')`
 * `lowQuality` - Shortcut to `getPropertyClass('ClientPrefs', 'lowQuality')`
-
+_______________________
 # Functions
+## Fun Functions
+### addScore(value:Int = 0)
+Adds `value` to the current song's score and recalculates rating
+_______________________
+### setScore(value:Int = 0)
+Set the current song's score to `value` and recalculates rating
+_______________________
+### addMisses(value:Int = 0)
+Adds `value` to the current song's misses total and recalculates rating
+_______________________
+### setScore(value:Int = 0)
+Set the current song's misses total to `value` and recalculates rating
+_______________________
+### addHits(value:Int = 0)
+Adds `value` to the current song's notes hit total and recalculates rating
+_______________________
+### setHits(value:Int = 0)
+Set the current song's notes hit total to `value` and recalculates rating
+_______________________
+### getColorFromHex(color:String)
+Get the color decimal ID from an Hexadecimal value (`color`).
+
+Example: To get orange, you should use `getColorFromHex('FF7800')` or getColorFromHex('0xFFFF7800')
+_______________________
+### keyJustPressed(name:String)
+Get if the key `name` just got pressed on the current frame.
+
+Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'accept'`, `'back'`, `'pause'`, `'reset'`
+_______________________
+### keyPressed(name:String)
+Get if the key `name` is being held on the current frame.
+
+Keys: `'left'`, `'down'`, `'up'`, `'right'`
+_______________________
+### keyReleased(name:String)
+Get if the key `name` was released on the current frame.
+
+Keys: `'left'`, `'down'`, `'up'`, `'right'`
+_______________________
+### triggerEvent(name:String, arg1:String, arg2:String)
+Triggers an event without you having to chart them.
+* `name` - Event name on Chart Editor
+* `arg1` - Value 1 on Chart Editor
+* `arg2` - Value 2 on Chart Editor
+_______________________
 ## Value/Array/Group functions
 ### getProperty(variable:String)
 Returns a current variable from PlayState's name.
@@ -124,3 +169,43 @@ _______________________
 Works similar to `setProperty`, but can be used to access a variable inside a Class other than PlayState.
 
 Example: To make the mouse visible, you should use `getPropertyFromClass('FlxG', 'mouse.visible', true)`.
+_______________________
+## Tweens/Timer Functions
+NOTE: [Click here to see the list of Tween Eases.](https://api.haxeflixel.com/flixel/tweens/FlxEase.html)
+### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+Do a Tween on an object's X value
+
+**Calling this function will cancel another tween that is using the same tag!**
+* `tag` - Once the tween is finished, it will do a callback of `onTweenCompleted(tag)`
+* `vars` - Variable to tween, example: `boyfriend` for tweening Boyfriend's X position, `boyfriend.scale` for tweening Boyfriend's Scale X
+* `value` - Target value on the tween end
+* `duration` - How much time it will take for the tween to end
+* `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
+* `delay` - Time to wait before the tween starts
+
+Example: To do a tween to Boyfriend's Scale X, you should use `doTweenX('bfScaleTweenX', 'boyfriend.scale', 1.5, 1, 'elasticInOut')`, when the tween ends, it will do a callback for `onTweenCompleted('bfScaleTweenX')`
+_______________________
+### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+Do a Tween on an object's Y value
+Works exactly like doTweenX
+_______________________
+### doTweenAlpha(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+Do a Tween on an object's Alpha value
+Works exactly like doTweenX
+_______________________
+### doTweenZoom(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+Do a Tween on a Camera's Zoom
+Works exactly like doTweenX, but `vars` should be either: `camGame`, `camHUD` or `camOther`
+_______________________
+### doTweenColor(tag:String, vars:String, targetColor:String, duration:Float, ease:String, delay:Float = 0)
+Do a Tween on an object's color
+
+**Calling this function will cancel another tween that is using the same tag!**
+* `tag` - Once the tween is finished, it will do a callback of `onTweenCompleted(tag)`
+* `vars` - Variable to tween, example: `boyfriend` for tweening Boyfriend's X position, `boyfriend.scale` for tweening Boyfriend's Scale X
+* `targetColor` - The color the object will have when the tween ends (Must be in hexadecimal!)
+* `duration` - How much time it will take for the tween to end
+* `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
+* `delay` - Time to wait before the tween starts
+
+Example: To tween Boyfriend's color to Red, you should use `doTweenX('bfColorTween', 'boyfriend', 'FF0000, 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
