@@ -71,3 +71,22 @@ The script file must be named `script.lua` and put inside the song's chart folde
 * `flashingLights` - Shortcut to `getPropertyClass('ClientPrefs', 'flashing')`
 * `noteOffset` - Represents the note delay in milliseconds (Goes from `0` to `500`). Shortcut to `getPropertyClass('ClientPrefs', 'noteOffset')`
 * `lowQuality` - Shortcut to `getPropertyClass('ClientPrefs', 'lowQuality')`
+
+# Functions
+### getProperty(variable:String)
+
+Returns a current variable from PlayState's name.
+
+It can also be used to get the variable from an object that is inside PlayState.
+
+Example: If you wanted to get the current health's value, you should use `getProperty('health')`.
+
+Example 2: If you'd want to get Boyfriend's current character, you should use `getProperty('boyfriend.curCharacter')`
+
+### setProperty(variable:String, value:Dynamic)
+
+Works in the same way as getProperty, but it sets a new value for the variable.
+
+Also returns the new value of the variable.
+
+Example: To set the player's current health to 100%, you should use `setProperty('health', 2)`
