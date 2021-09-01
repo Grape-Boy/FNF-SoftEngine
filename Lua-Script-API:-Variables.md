@@ -60,9 +60,11 @@
 
 ## Preferences Variables
 * `downscroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'downScroll')`
+* `middlescroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'middleScroll')`
 * `framerate` - Current framerate limit. Shortcut to `getPropertyClass('ClientPrefs', 'framerate')`
 * `ghostTapping` - Ghost tapping is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'ghostTapping')`
-* `hideHud` - Tells if the player has only the strums/notes visible. Shortcut to `getPropertyClass('ClientPrefs', 'hideHud')`
+* `hideHud` - "Hide HUD" is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'hideHud')`
+* `hideTime` - "Hide Song Length" is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'hideTime')`
 * `cameraZoomOnBeat` - Shortcut to `getPropertyClass('ClientPrefs', 'camZooms')`
 * `flashingLights` - Shortcut to `getPropertyClass('ClientPrefs', 'flashing')`
 * `noteOffset` - Represents the note delay in milliseconds (Goes from `0` to `500`). Shortcut to `getPropertyClass('ClientPrefs', 'noteOffset')`
