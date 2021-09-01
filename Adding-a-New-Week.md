@@ -84,6 +84,6 @@ This can be skipped if you already know about it.
 
 **1.** Open Project.xml
 
-**2.** The easiest and fastest way to add your folder there, is to copy all mentions of `week6` and `week6_high` and name it to whatever your folder will be named (In my case, `testicle`).
+**2.** The easiest and fastest way to add your folder there, is to copy all mentions of `week6` and and name it to whatever your folder will be named (In my case, `testicle`).
 
 ![](https://i.imgur.com/3nxa1FW.png)
