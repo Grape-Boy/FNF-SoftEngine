@@ -14,14 +14,17 @@ Example: To do a tween to Boyfriend's Scale X, you should use `doTweenX('bfScale
 _______________________
 ### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
 Do a Tween on an object's Y value
+
 Works exactly like doTweenX
 _______________________
 ### doTweenAlpha(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
 Do a Tween on an object's Alpha value
+
 Works exactly like doTweenX
 _______________________
 ### doTweenZoom(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
 Do a Tween on a Camera's Zoom
+
 Works exactly like doTweenX, but `vars` should be either: `camGame`, `camHUD` or `camOther`
 _______________________
 ### doTweenColor(tag:String, vars:String, targetColor:String, duration:Float, ease:String, delay:Float = 0)
