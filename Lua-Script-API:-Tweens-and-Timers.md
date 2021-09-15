@@ -1,5 +1,5 @@
 NOTE: [Click here to see the list of Tween Eases.](https://api.haxeflixel.com/flixel/tweens/FlxEase.html)
-### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's X value
 
 **Calling this function will cancel another tween that is using the same tag!**
@@ -8,26 +8,25 @@ Do a Tween on an object's X value
 * `value` - Target value on the tween end
 * `duration` - How much time it will take for the tween to end
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
-* `delay` - Optional, time to wait before the tween starts
 
 Example: To do a tween to Boyfriend's Scale X, you should use `doTweenX('bfScaleTweenX', 'boyfriend.scale', 1.5, 1, 'elasticInOut')`, when the tween ends, it will do a callback for `onTweenCompleted('bfScaleTweenX')`
 _______________________
-### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's Y value
 
 Works exactly like doTweenX
 _______________________
-### doTweenAlpha(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+### doTweenAlpha(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's Alpha value
 
 Works exactly like doTweenX
 _______________________
-### doTweenZoom(tag:String, vars:String, value:Dynamic, duration:Float, ease:String, delay:Float = 0)
+### doTweenZoom(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on a Camera's Zoom
 
 Works exactly like doTweenX, but `vars` should be either: `camGame`, `camHUD` or `camOther`
 _______________________
-### doTweenColor(tag:String, vars:String, targetColor:String, duration:Float, ease:String, delay:Float = 0)
+### doTweenColor(tag:String, vars:String, targetColor:String, duration:Float, ease:String)
 Do a Tween on an object's color
 
 **Calling this function will cancel another tween that is using the same tag!**
@@ -36,7 +35,6 @@ Do a Tween on an object's color
 * `targetColor` - The color the object will have when the tween ends (Must be in hexadecimal!)
 * `duration` - How much time it will take for the tween to end
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
-* `delay` - Optional, time to wait before the tween starts
 
 Example: To tween Boyfriend's color to Red, you should use `doTweenX('bfColorTween', 'boyfriend', 'FF0000, 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
 _______________________
