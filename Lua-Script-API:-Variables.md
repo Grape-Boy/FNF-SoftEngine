@@ -1,7 +1,9 @@
-## Lua variables
-* `luaDebugMode` - Enables debug mode, or should enable it, if i didn't had forgot to make the Debug mode work, oops. Default value: `false`
-* `luaDeprecatedWarnings` - Tells you a function/variable is deprecated (shouldn't be used anymore), only works when Debug mode is on. Default value: `true`
+## Lua/Unique variables
+### Note: Those two are the only variables that can be changed by using `= true` or `= false` for now, you will have to use [setProperty()](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Value-Setting-and-Getting-Functions#setpropertyvariablestring-valuedynamic) if you want to change it
+* `luaDebugMode` - Enables debug mode, use `luaDebugMode = true` to enable it. Default value: `false`
+* `luaDeprecatedWarnings` - Tells you if a function/variable is deprecated (shouldn't be used anymore), only works when Debug mode is on, use `luaDeprecatedWarnings = false` to disable it. Default value: `true`
 
+____
 ## Song/Week Variables
 * `curBpm` - Current BPM of the Song, shortcut to `getPropertyClass('Conductor', 'bpm')`
 * `bpm` - Starting BPM of the Song, shortcut to `getProperty('SONG.bpm')`
@@ -13,16 +15,19 @@
 * `isStoryMode` - Shortcut to `getProperty('isStoryMode')`
 * `difficulty` - Returns the difficulty ID (Easy = 0, Normal = 1, Hard = 2), Shortcut to `getProperty('storyDifficulty')`
 * `weekRaw` - Returns the raw current week number. I doubt you will ever use this, but hey, just in case you do, it's here.
-* `week` - Returns the properly formatted current week number.
+* `week` - Returns the properly formatted current week file name.
 
+____
 ## Camera Variables
 * `cameraX` - Shortcut to `getProperty('camFollowPos.x')`
 * `cameraY` - Shortcut to `getProperty('camFollowPos.y')`
 
+____
 ## Screen variables
 * `screenWidth` -  Shortcut to `getPropertyClass('FlxG', width)`
 * `screenHeight` -  Shortcut to `getPropertyClass('FlxG', heigth)`
 
+____
 ## Gameplay Variables
 * `startedCountdown` - Tells you if the countdown already started
 * `seenCutscene` - Is set to `true` after `onCreate()` function, Shortcut to `getProperty('seenCutscene')`
@@ -31,15 +36,18 @@
 * `curStep` - Current step number
 
 * `score` - Current score, Shortcut to `getProperty('songScore')`
-* `misses` - Current number of notes missed, Shortcut to `getProperty('songMisses')`
+* `misses` - Current total number of notes missed, Shortcut to `getProperty('songMisses')`
+* `ghostMisses` - Current number of Key press misses, Shortcut to `getProperty('ghostMisses')`
 * `hits` - Current number of notes hit, Shortcut to `getProperty('songHits')`
 
 * `rating` - Current rating percentage, goes from `0` to `1`. Shortcut to `getProperty('ratingPercent')`
 * `ratingName` - Current rating's name. Shortcut to `getProperty('ratingString')`
 
+* `inGameOver` - Player is Dead
 * `mustHitSection` - Tells if the current section is a `Must Hit Section` (from Chart Editor)
 * `botPlay` - Tells if Botplay is enabled. Shortcut to `getProperty('cpuControlled')`
 
+____
 ## Strum/Receptor Variables
 * `defaultPlayerStrumX0` - Player's default left arrow X
 * `defaultPlayerStrumY0` - Player's default left arrow Y
@@ -58,6 +66,7 @@
 * `defaultOpponentStrumX3` - Opponent's default right arrow X
 * `defaultOpponentStrumY3` - Opponent's default right arrow Y
 
+____
 ## Preferences Variables
 * `downscroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'downScroll')`
 * `middlescroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'middleScroll')`
