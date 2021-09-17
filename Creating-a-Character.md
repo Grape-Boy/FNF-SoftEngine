@@ -1,13 +1,14 @@
 # Files Required
 You're going to need your character's .png and .xml files, they must have the same file name.
-Although that's optional, you will also need your character's health icon, it is a **300x150** file that must have its name starting with `icon-`!
+
+Although that's optional, you will also need your character's health icon, it must be a **300x150** .PNG file!
 
 Put the character .png/.xml files inside `mods/images/characters/` and put the health icon inside `mods/images/icons/`.
 
 # Doing the deed
 Press 8 during a song to open the Character Editor.
 
-In this case i will be doing a character named `bf-bald` the character .png/.xml is called `BaldBF_Assets` and the health icon file is called `icon-bf-bald.png`.
+In this case i will be doing a character named `bf-bald` the character .png/.xml is called `BaldBF_Assets` and the health icon file is called `bf-bald.png`.
 
 This is what you should be seeing when you open the Character Editor:
 
