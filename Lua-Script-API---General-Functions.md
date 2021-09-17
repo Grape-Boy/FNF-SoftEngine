@@ -118,3 +118,11 @@ Returns the current song position. Shortcut to `getPropertyClass('Conductor', 's
 ### cameraSetTarget(target:String)
 Makes the camera focus on a specific target
 * `target` - Target can be either `boyfriend` or `dad`
+____________________
+# Debug Functions
+### debugPrint(text:String)
+* Prints a debug message on the top-left corner of the screen
+
+### close(printMessage:Bool)
+Stops your script in the next 100 miliseconds.
+* `printMessage` - Wether you want a warning to show on the top-left corner of the screen or not
