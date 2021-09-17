@@ -38,7 +38,7 @@ Do a Tween on an object's color
 
 Example: To tween Boyfriend's color to Red, you should use `doTweenX('bfColorTween', 'boyfriend', 'FF0000, 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
 _______________________
-### runTimer(tag:String, time:Float = 1, loops:Float = 1)
+### runTimer(tag:String, time:Float = 1, loops:Int = 1)
 Runs a timer with a determined duration and loops count.
 
 **Calling this function will cancel another timer that is using the same tag!**
