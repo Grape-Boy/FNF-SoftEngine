@@ -1,9 +1,9 @@
 # Running a script
 There's four types of LUA Scripts you can run:
-* A Stage Script, it should have the same name as your stage's .json file and should be located inside mods/stages/
-* A Note Type Script, it will only be executed if the said Note Type is being used on the chart, it should be located inside mods/custom_notetypes/
-* An Event Script, it will only be executed if the said Event is being used on the chart, it should be located inside mods/custom_events/
-* Song's Script, should be named `script.lua` and saved inside the song's chart folder, it will only be executed on this specific song, no matter the difficulty.
+* A Stage Script, it will only run it should have the same name as your stage's .json file and should be located inside mods/stages/
+* A Note Type Script, it will only run if the said Note Type is being used on the chart, it should be located inside mods/custom_notetypes/
+* An Event Script, it will only run if the said Event is being used on the chart, it should be located inside mods/custom_events/
+* Song's Script, should be named `script.lua` and saved inside the song's chart folder, it will only run on this specific song, no matter the difficulty, stage or whatever else.
 
 # API Documentation
 * [Variables](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Variables)
@@ -18,7 +18,7 @@ There's four types of LUA Scripts you can run:
 * [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/840678333602857040/888568118505525248/TemplateScript.lua)
 * [Example of Triggering an Event via Lua - Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
 * [Tween Example - Boyfriend gets bigger on his turn](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
-* [Animated Sprite Example - Dad clone behind Dad that just bops his head](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
+* [Animated Sprite Example - Dad clone behind Dad that bops head on Beat hit](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
 * [Dialogue Example - Dialogue on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568122087440425/bopeeboTestDialogue.zip)
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
 * [Example of a Custom Event - Garcello/Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
