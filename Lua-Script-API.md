@@ -14,7 +14,7 @@ There's four types of LUA Scripts you can run:
 * [Custom Sprites/Objects](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Custom-Sprites-Functions)
 * [Precaching Stuff](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Precaching-Functions)
 
-# Example Scripts:
+# Example Scripts
 * [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/840678333602857040/888568118505525248/TemplateScript.lua)
 * [Example of Triggering an Event via Lua - Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
 * [Tween Example - Boyfriend gets bigger on his turn/Tween example](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
