@@ -26,7 +26,7 @@ Adds a Lua Sprite with the specified tag, either in front or behind the characte
 ### removeLuaSprite(tag:String)
 Removes a Lua Sprite with the specified tag
 ____________________
-# Animations
+# Animation Functions
 ### luaSpriteAddAnimationByPrefix(tag:String, name:String, prefix:String, framerate:Int = 24, loop:Bool = true)
 Adds an animation `name` to the Lua Sprite using the tag `tag`, it will also overwrite another animation using the same name.
 * `tag` - Lua Sprite tag
