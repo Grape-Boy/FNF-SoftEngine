@@ -74,6 +74,15 @@ Returns the relative mouse X position on a specific camera
 ### getMouseY(camera:String)
 Returns the relative mouse Y position on a specific camera
 * `camera` - Can be either `game`, `hud` or `other`
+____________________
+# Object Functions
+### removeFromGroup(obj:String, index:Int, dontKill:Bool = false, dontDestroy:Bool = false)
+* `obj` - Group/Array variable
+* `index` - Member ID
+* `dontKill` - Optional variable. Won't kill member, you will probably never ever use this.
+* `dontDestroy` - Optional variable. Won't clear member from memory, you will probably never ever use this.
+
+Example: TO remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
 _______________________
 # Other Functions
 ### triggerEvent(name:String, arg1:String, arg2:String)
