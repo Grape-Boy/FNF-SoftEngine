@@ -1,5 +1,5 @@
 ## startDialogue(dialogueFile:String, song:String = null)
-Starts a dialogue loading a file inside `mods/data/`.
+Starts a dialogue loading a file inside `mods/data/your-song-name/`.
 * `dialogueFile` - .TXT file to load
 * `song` - Optional value for a Background music during the dialogue
 
@@ -9,5 +9,11 @@ NOTE: When the dialogue is ended, it calls `startCountdown()`
 
 NOTE 2: `onNextDialogue(line)` callback is called for every dialogue line passed
 
+## startVideo(videoFile:String)
+Starts a Video Cutscene
+* `videoFile` - File name of your video, it must be inside `mods/videos/`
+
+Example: If you wanted to start the video `mods/videos/ughCutscene.mp4`, you'd have to use `startVideo('ughCutscene')`
+
 ## startCountdown()
-In case you forced a countdown stop for doing a pre-song cutscene or something, this starts the countdown again.
+In case you forced a countdown stop for doing a pre-song cutscene or something, this starts the countdown again manually.
