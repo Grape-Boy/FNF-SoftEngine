@@ -1,6 +1,11 @@
 # Running a script
-The script file must be named `script.lua` and put inside the song's chart folder.
+There's four types of LUA Scripts you can run:
+* A Stage Script, it should have the same name as your stage's .json file and should be located inside mods/stages/
+* A Note Type Script, it will only be executed if the said Note Type is being used on the chart, it should be located inside mods/custom_notetypes/
+* An Event Script, it will only be executed if the said Event is being used on the chart, it should be located inside mods/custom_events/
+* Song's Script, should be named `script.lua` and saved inside the song's chart folder, it will only be executed on this specific song, no matter the difficulty.
 
+# API Documentation
 * [Variables](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Variables)
 * [General Functions](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API---General-Functions)
 * [Tweens and Timers](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Tweens-and-Timers)
@@ -9,10 +14,15 @@ The script file must be named `script.lua` and put inside the song's chart folde
 * [Custom Sprites/Objects](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Custom-Sprites-Functions)
 * [Precaching Stuff](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Precaching-Functions)
 
-Example Scripts: (OUTDATED!!!! I'M STILL UPDATING THEM!)
-* [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/866856727621795850/880169106047905832/TemplateScript.lua)
-* [Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
-* [Boyfriend gets bigger on his turn/Tween example](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
-* [Dad clone behind Dad that just bops his head/Animated Sprite Example](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
-* [Play with your Mouse instead of Arrow Keys](https://cdn.discordapp.com/attachments/866856727621795850/880169104084987914/MousePlayScript.lua)
-* [Test dialogue on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/866856727621795850/880169103179001856/DialogueScript.zip)
+# Example Scripts:
+* [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/840678333602857040/888568118505525248/TemplateScript.lua)
+* [Example of Triggering an Event via Lua - Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
+* [Tween Example - Boyfriend gets bigger on his turn/Tween example](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
+* [Animated Sprite Example - Dad clone behind Dad that just bops his head/Animated Sprite Example](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
+* [Dialogue Example - Dialogue on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568122087440425/bopeeboTestDialogue.zip)
+* [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
+* [Example of a Custom Event - Garcello/Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
+* [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/840678333602857040/888568127200305182/Instakill_Note.lua)
+
+FOR MORE ADVANCED USERS:
+* [Play with your Mouse instead of Arrow Keys](https://cdn.discordapp.com/attachments/840678333602857040/888568120728502272/script.lua)
