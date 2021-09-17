@@ -1,4 +1,5 @@
 NOTE: [Click here to see the list of Tween Eases.](https://api.haxeflixel.com/flixel/tweens/FlxEase.html)
+# Starting Timer/Tween Functions
 ### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's X value
 
@@ -10,22 +11,22 @@ Do a Tween on an object's X value
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
 
 Example: To do a tween to Boyfriend's Scale X, you should use `doTweenX('bfScaleTweenX', 'boyfriend.scale', 1.5, 1, 'elasticInOut')`, when the tween ends, it will do a callback for `onTweenCompleted('bfScaleTweenX')`
-_______________________
+
 ### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's Y value
 
 Works exactly like doTweenX
-_______________________
+
 ### doTweenAlpha(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's Alpha value
 
 Works exactly like doTweenX
-_______________________
+
 ### doTweenZoom(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on a Camera's Zoom
 
 Works exactly like doTweenX, but `vars` should be either: `camGame`, `camHUD` or `camOther`
-_______________________
+
 ### doTweenColor(tag:String, vars:String, targetColor:String, duration:Float, ease:String)
 Do a Tween on an object's color
 
@@ -37,7 +38,7 @@ Do a Tween on an object's color
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
 
 Example: To tween Boyfriend's color to Red, you should use `doTweenX('bfColorTween', 'boyfriend', 'FF0000, 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
-_______________________
+
 ### runTimer(tag:String, time:Float = 1, loops:Int = 1)
 Runs a timer with a determined duration and loops count.
 
@@ -46,6 +47,7 @@ Runs a timer with a determined duration and loops count.
 * `time` - Optional value, how much time it takes to finish a loop. Default value is `1`
 * `loops` - Optional value, how much loops should it do, if it's set to 0, it will repeat indefinitely. Default value is `1`
 _______________________
+# Cancelling Timer/Tween Functions
 ### cancelTween(tag)
 Cancels a tween using the tag `tag`, if there even is one.
 _______________________
