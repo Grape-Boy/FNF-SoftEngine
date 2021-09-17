@@ -17,8 +17,8 @@ There's four types of LUA Scripts you can run:
 # Example Scripts
 * [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/840678333602857040/888568118505525248/TemplateScript.lua)
 * [Example of Triggering an Event via Lua - Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
-* [Tween Example - Boyfriend gets bigger on his turn/Tween example](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
-* [Animated Sprite Example - Dad clone behind Dad that just bops his head/Animated Sprite Example](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
+* [Tween Example - Boyfriend gets bigger on his turn](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
+* [Animated Sprite Example - Dad clone behind Dad that just bops his head](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
 * [Dialogue Example - Dialogue on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568122087440425/bopeeboTestDialogue.zip)
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
 * [Example of a Custom Event - Garcello/Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
