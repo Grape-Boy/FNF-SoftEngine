@@ -23,6 +23,31 @@ Gets the general Y position of a character from the type `type`
 ### setCharacterY(type:String)
 Sets the general Y position of a character from the type `type`, this will also move all precached characters from the same type into the position you want
 * `type` - Can be `boyfriend`, `dad` or `gf`
+____________________
+# Object Functions
+### removeFromGroup(obj:String, index:Int, dontKill:Bool = false, dontDestroy:Bool = false)
+* `obj` - Group/Array variable
+* `index` - Member ID
+* `dontKill` - Optional variable. Won't kill member, you will probably never ever use this.
+* `dontDestroy` - Optional variable. Won't clear member from memory, you will probably never ever use this.
+
+Example: TO remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
+_______________________
+# Sound/Music Functions
+### musicFadeIn(duration:Float, fromValue:Float = 0, toValue:Float = 1)
+* `duration` - The time it takes for the volume to go from `fromValue` to `toValue`
+* `fromValue` - Starting value. Default value is `0`
+* `toValue` - End value. Default value is `1`
+
+### musicFadeOut(duration:Float, toValue:Float = 0)
+* `duration` - The time it takes for the volume to go from the starting volume to `toValue`
+* `toValue` - End value. Default value is `0`
+
+### playSound(name:String, volume:Float = 1)
+* `name` - File name
+* `volume` - Optional value, volume percent goes from `0` to `1`. Default value: `1`
+
+Example: Using `playSound('confirmMenu', 0.5)` will play the menu "Accept" sound with 50% volume
 _______________________
 # Score/Accuracy Functions
 ### addScore(value:Int = 0)
@@ -74,15 +99,6 @@ Returns the relative mouse X position on a specific camera
 ### getMouseY(camera:String)
 Returns the relative mouse Y position on a specific camera
 * `camera` - Can be either `game`, `hud` or `other`
-____________________
-# Object Functions
-### removeFromGroup(obj:String, index:Int, dontKill:Bool = false, dontDestroy:Bool = false)
-* `obj` - Group/Array variable
-* `index` - Member ID
-* `dontKill` - Optional variable. Won't kill member, you will probably never ever use this.
-* `dontDestroy` - Optional variable. Won't clear member from memory, you will probably never ever use this.
-
-Example: TO remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
 _______________________
 # Other Functions
 ### triggerEvent(name:String, arg1:String, arg2:String)
@@ -90,12 +106,6 @@ Triggers an event without you having to chart them.
 * `name` - Event name on Chart Editor
 * `arg1` - Value 1 on Chart Editor
 * `arg2` - Value 2 on Chart Editor
-
-### playSound(name:String, volume:Float = 1)
-* `name` - File name
-* `volume` - Optional value, volume percent goes from `0` to `1`. Default value: `1`
-
-Example: Using `playSound('confirmMenu', 0.5)` will play the menu "Accept" sound with 50% volume
 
 ### getColorFromHex(color:String)
 Get the color decimal ID from an Hexadecimal value (`color`).
