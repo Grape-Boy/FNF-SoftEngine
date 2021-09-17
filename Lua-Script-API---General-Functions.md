@@ -1,3 +1,4 @@
+# Character Functions
 ### characterPlayAnim(character:String, anim:String, forced:Bool = false)
 * `character` - Can be `boyfriend`, `dad` or `gf`
 * `anim` - Animation name to be played
@@ -23,6 +24,7 @@ _______________________
 Sets the general Y position of a character from the type `type`, this will also move all precached characters from the same type into the position you want
 * `type` - Can be `boyfriend`, `dad` or `gf`
 _______________________
+# Score/Accuracy Functions
 ### addScore(value:Int = 0)
 Adds `value` to the current song's score and recalculates rating
 _______________________
@@ -41,6 +43,7 @@ _______________________
 ### setHits(value:Int = 0)
 Set the current song's notes hit total to `value` and recalculates rating
 _______________________
+# Extra Functions
 ### triggerEvent(name:String, arg1:String, arg2:String)
 Triggers an event without you having to chart them.
 * `name` - Event name on Chart Editor
@@ -94,9 +97,3 @@ _______________________
 ### getMouseY(camera:String)
 Returns the relative mouse Y position on a specific camera
 * `camera` - Can be either `game`, `hud` or `other`
-_______________________
-### spawnNoteSplashes(x:Float, y:Float, data:Int = 0, type:Int = 0)
-* `x` - X Position to spawn
-* `y` - Y Position to spawn
-* `data` - Note data: 0 = Left, 1 = Down, 2 = Up, 3 = Right
-* `type` - Note type, 3 = Hurt note splash, etc.
