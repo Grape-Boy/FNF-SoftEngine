@@ -9,7 +9,7 @@ The script file must be named `script.lua` and put inside the song's chart folde
 * [Custom Sprites/Objects](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Custom-Sprites-Functions)
 * [Precaching Stuff](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Precaching-Functions)
 
-Example Scripts:
+Example Scripts: (OUTDATED!!!! I'M STILL UPDATING THEM!)
 * [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/866856727621795850/880169106047905832/TemplateScript.lua)
 * [Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
 * [Boyfriend gets bigger on his turn/Tween example](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
