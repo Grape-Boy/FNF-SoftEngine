@@ -26,4 +26,4 @@ If the folder doesn't exist, you can create it.
 A: Save it inside the song's charts folder, you can edit the [Dialogue script example](https://cdn.discordapp.com/attachments/840678333602857040/888568122087440425/bopeeboTestDialogue.zip) for running on your song.
 
 ### Q: "How can i create a Custom Event?"
-A: (Read this.)[https://github.com/ShadowMario/FNF-PsychEngine/wiki/Creating-an-Event]
+A: [Read this.](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Creating-an-Event)
