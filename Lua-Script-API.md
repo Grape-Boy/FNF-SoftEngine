@@ -1,6 +1,6 @@
 # Running a script
 There's four types of LUA Scripts you can run:
-* A Stage Script, it will only run it should have the same name as your stage's .json file and should be located inside mods/stages/
+* A Stage Script, it will only run if the song's stage has been set to the same as its name, it should have the same name as your stage's .json file and should be located inside mods/stages/
 * A Note Type Script, it will only run if the said Note Type is being used on the chart, it should be located inside mods/custom_notetypes/
 * An Event Script, it will only run if the said Event is being used on the chart, it should be located inside mods/custom_events/
 * Song's Script, should be named `script.lua` and saved inside the song's chart folder, it will only run on this specific song, no matter the difficulty, stage or whatever else.
