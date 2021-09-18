@@ -1,5 +1,5 @@
 # On a Downloaded Build
-## The easiest way to do this is by editing my [Example Event script.](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip), extract the files inside `mods/custom_events/`
+The easiest way to do this is by editing my [Example Event script](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip), extract the files inside `mods/custom_events/`
 _______________________
 # On the Source Code
 ## Adding it to Chart Editor
