@@ -1,4 +1,5 @@
 ***For adding a new Difficulty you will need the Source Code***
+
 *On this Example, i will be adding a new difficulty called "Crazy", all charts for this difficulty should end with "-crazy".*
 
 # Adding to the list
