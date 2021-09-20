@@ -21,7 +21,7 @@ Example 2: To get the next unspawned note's noteData, you should use `getPropert
 ### getPropertyFromClass(classVar:String, variable:String)
 Works similar to `getProperty`, but can be used to access a variable inside a Class other than PlayState.
 
-Example: To get how much time has passed since the last frame (in milliseconds), you should use `getPropertyFromClass('FlxG', 'elapsed')`.
+Example: To get how much time has passed since the last frame (in milliseconds), you should use `getPropertyFromClass('flixel.FlxG', 'elapsed')`.
 _______________________
 # General Setters
 ### setProperty(variable:String, value:Dynamic)
