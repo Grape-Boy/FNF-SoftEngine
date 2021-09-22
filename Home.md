@@ -2,7 +2,7 @@ Welcome to the Psych Engine Official Wiki!
 
 # Frequently Asked Questions
 ### Q: "I'm using the Downloaded Build, the Engine can't find an specific file!"
-A: Make sure you've put the file `inside mods/`, not `assets/`
+A: Make sure you've put the file inside `mods/`, not `assets/`
 
 ### Q: "How do i make a Custom Character?"
 A: [Read this.](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Creating-a-Character)
