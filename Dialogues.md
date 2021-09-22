@@ -43,6 +43,8 @@ Go into **source/PlayState.hx** and search for this line:
 
 ![](https://i.imgur.com/RrcgUzv.png)
 
-Now change it to this:
+Now change it to this (Obviously replacing the "your-song-name" to... Your song's name):
 
-![](https://i.imgur.com/Tsg9fDX.png)
+![](https://i.imgur.com/jjS6zGB.png)
+
+Compile your build and you should be ready to go!
