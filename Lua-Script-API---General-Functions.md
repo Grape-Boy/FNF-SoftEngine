@@ -89,6 +89,12 @@ Example: To get orange, you should use `getColorFromHex('FF7800')` or `getColorF
 
 ### getSongPosition()
 Returns the current song position. Shortcut to `getPropertyClass('Conductor', 'songPosition')`
+___
+# Camera Functions
+### cameraShake(camera:String, intensity:Float, duration:Float)
+* `camera` - "game", "hud" or "other"
+* `intensity` - How far away should it shake, recommended value is `0.05`
+* `duration` - Time duration for it to shake
 
 ### cameraSetTarget(target:String)
 Makes the camera focus on a specific target
