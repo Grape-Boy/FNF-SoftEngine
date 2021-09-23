@@ -13,6 +13,7 @@ Do a tween on a receptor's Y position
 
 Works exactly like noteTweenX
 
+# Starting Timer/Tween Functions
 ### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's X value
 
