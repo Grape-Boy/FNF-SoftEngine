@@ -2,7 +2,7 @@
 ### getProperty(variable:String)
 Returns a current variable from PlayState's name.
 
-It can also be used to get the variable from an object that is inside PlayState.
+It can also be used to get the variable from an object that is inside PlayState or a Lua Sprite.
 
 Example: If you wanted to get the current health's value, you should use `getProperty('health')`.
 
@@ -42,15 +42,3 @@ Sets the new value to a variable from an array/group member on PlayState.
 Works similar to `setProperty`, but can be used to access a variable inside a Class other than PlayState.
 
 Example: To make the mouse visible, you should use `getPropertyFromClass('FlxG', 'mouse.visible', true)`.
-
-_______________________
-# Getters and Setters for [Lua Sprites](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Custom-Sprites-Functions)
-### getPropertyLuaSprite(tag:String, variable:String)
-Returns a variable from the Lua Sprite using the tag `tag`
-
-Example: To get the alpha value of a Lua Sprite with the tag `bgShit`, use `getPropertyLuaSprite('bgShit', 'alpha')`
-
-### setPropertyLuaSprite(tag:String, variable:String, value:Dynamic)
-Sets the value of a variable from the Lua Sprite using the tag `tag`
-
-Example: To set the angle value of a Lua Sprite with the tag `testSprite` to 15, use `setPropertyLuaSprite('testSprite', 'angle', 15)`
