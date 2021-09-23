@@ -17,3 +17,6 @@ Example: If you wanted to start the video `mods/videos/ughCutscene.mp4`, you'd h
 
 ## startCountdown()
 In case you forced a countdown stop for doing a pre-song cutscene or something, this starts the countdown again manually.
+
+## endSong()
+In case you forced a song end for doing a post-song cutscene or something, this ends the song manually.
