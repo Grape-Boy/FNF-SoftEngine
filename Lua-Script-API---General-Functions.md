@@ -23,31 +23,6 @@ Gets the general Y position of a character from the type `type`
 ### setCharacterY(type:String)
 Sets the general Y position of a character from the type `type`, this will also move all precached characters from the same type into the position you want
 * `type` - Can be `boyfriend`, `dad` or `gf`
-____________________
-# Object Functions
-### removeFromGroup(obj:String, index:Int, dontKill:Bool = false, dontDestroy:Bool = false)
-* `obj` - Group/Array variable
-* `index` - Member ID
-* `dontKill` - Optional variable. Won't kill member, you will probably never ever use this.
-* `dontDestroy` - Optional variable. Won't clear member from memory, you will probably never ever use this.
-
-Example: TO remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
-_______________________
-# Sound/Music Functions
-### musicFadeIn(duration:Float, fromValue:Float = 0, toValue:Float = 1)
-* `duration` - The time it takes for the volume to go from `fromValue` to `toValue`
-* `fromValue` - Starting value. Default value is `0`
-* `toValue` - End value. Default value is `1`
-
-### musicFadeOut(duration:Float, toValue:Float = 0)
-* `duration` - The time it takes for the volume to go from the starting volume to `toValue`
-* `toValue` - End value. Default value is `0`
-
-### playSound(name:String, volume:Float = 1)
-* `name` - File name
-* `volume` - Optional value, volume percent goes from `0` to `1`. Default value: `1`
-
-Example: Using `playSound('confirmMenu', 0.5)` will play the menu "Accept" sound with 50% volume
 _______________________
 # Score/Accuracy Functions
 ### addScore(value:Int = 0)
@@ -120,8 +95,16 @@ Makes the camera focus on a specific target
 * `target` - Target can be either `boyfriend` or `dad`
 ____________________
 # Debug Functions
-### debugPrint(text:String)
+### debugPrint(text1, text2, text3, text4, text5)
 * Prints a debug message on the top-left corner of the screen
+
+* All values are optional
+
+* You can have up to 5 values to be printed.
+
+Example: `debugPrint("Current boyfriend character: ", getProperty("boyfriend.curCharacter"));`
+
+This will print the following message: `Current boyfriend character: bf`
 
 ### close(printMessage:Bool)
 Stops your script in the next 100 miliseconds.
