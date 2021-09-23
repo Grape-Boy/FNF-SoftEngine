@@ -1,5 +1,18 @@
 NOTE: [Click here to see the list of Tween Eases.](https://api.haxeflixel.com/flixel/tweens/FlxEase.html)
-# Starting Timer/Tween Functions
+# Tween Functions for Strum/Receptors
+### noteTweenX(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
+Do a tween on a receptor's X position
+* `tag` - Once the tween is finished, it will do a callback of `onTweenCompleted(tag)`
+* `note` - Opponent's notes are 0, 1, 2 and 3, respectively. Boyfriend's notes are 4, 5, 6, 7 respectively.
+* `value` - Target value on the tween end
+* `duration` - How much time it will take for the tween to end
+* `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note in the first line of this page
+
+### noteTweenY(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
+Do a tween on a receptor's Y position
+
+Works exactly like noteTweenX
+
 ### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's X value
 
