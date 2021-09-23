@@ -15,7 +15,7 @@ There's four types of LUA Scripts you can run:
 * [Precaching Stuff](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Precaching-Functions)
 
 # Example Scripts
-* [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/840678333602857040/888568118505525248/TemplateScript.lua)
+* [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/885704785041440788/890427684822331392/TemplateScript.lua)
 * [Example of Triggering an Event via Lua - Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
 * [Tween Example - Boyfriend gets bigger on his turn](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
 * [Animated Sprite Example - Dad clone behind Dad that bops head on Beat hit](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
@@ -23,7 +23,7 @@ There's four types of LUA Scripts you can run:
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
 * [Example of a Custom Event - Garcello/Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
 * [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/840678333602857040/888568127200305182/Instakill_Note.lua)
-* [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/842824254889656320/889278157348282368/ExampleStage.zip)
+* [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/885704785041440788/890431279277957141/ExampleStage.zip)
 
 FOR MORE ADVANCED USERS:
 * [Play with your Mouse instead of Arrow Keys](https://cdn.discordapp.com/attachments/840678333602857040/888568120728502272/script.lua)
