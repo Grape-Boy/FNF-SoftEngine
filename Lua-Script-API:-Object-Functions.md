@@ -16,10 +16,13 @@ Sets the object's layer position
 Example: TO remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
 
 # Scale Functions
-### setGraphicSize(obj:String, multX:Float, multY:Float = 0) and scaleObject(obj:String, multX:Float, multY:Float = 0)
+### setGraphicSize(obj:String, multX:Float, multY:Float = 0)
 * `obj` - Object from PlayState or Lua Sprite
 * `multX` - Horizontal multiplier, default value is 1
 * `multY` - Vertical multiplier, default value is 1
+
+### scaleObject(obj:String, multX:Float, multY:Float = 0)
+Works identically to **setGraphicSize**
 
 ### updateHitbox(obj:String)
 Use this to update the hitbox in case you change the sprite's scale manually or via a tween.
