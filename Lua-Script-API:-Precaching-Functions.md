@@ -4,4 +4,10 @@ Creates a character for the `'Change Character'` event.
 * `name` - Character name, example: `pico-player`, `mom-car`, `gf`, etc.
 * `type` - Character type, 'boyfriend' for player, 'dad' for opponent, 'gf' for girlfriend.
 
-This is mainly used for avoiding a massive game freeze when the character is changed.
+### precacheSound(name:String)
+* `name` - Asset name, should be located inside `mods/sounds/` or `assets/sounds/`
+
+### precacheCustomImage(name:String)
+* `name` - Asset name, should be located inside `mods/images/`
+
+This is mainly used for avoiding a massive game freeze for when the asset first gets used.
