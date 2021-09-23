@@ -23,8 +23,10 @@ If another Lua Sprite that exists is already using the tag `tag`, it will be rem
 ### addLuaSprite(tag:String, front:Bool = false)
 Adds a Lua Sprite with the specified tag, either in front or behind the characters.
 
-### removeLuaSprite(tag:String)
+### removeLuaSprite(tag:String, destroy:Bool = false)
 Removes a Lua Sprite with the specified tag
+* `tag` - The Lua Sprite's tag
+* `destroy` - Specifies if you don't want to use the sprite anymore (Set to `false` if you want to re-add it later)
 ____________________
 # Animation Functions
 ### luaSpriteAddAnimationByPrefix(tag:String, name:String, prefix:String, framerate:Int = 24, loop:Bool = true)
@@ -60,8 +62,3 @@ How much the Lua Sprite moves along with the camera.
 * `scrollY` - Vertical movement multiplier
 
 Example: Boyfriend/Dad have a scrollX/scrollY value of 1, if you're gonna do background elements, it's highly suggested that you make the values something under 1.
-
-### scaleLuaSprite(tag:String, x:Float, y:Float)
-* `tag` - Lua Sprite tag
-* `x` - Horizontal scale
-* `y` - Vertical scale
