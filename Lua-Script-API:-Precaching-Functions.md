@@ -7,7 +7,7 @@ Creates a character for the `'Change Character'` event.
 ### precacheSound(name:String)
 * `name` - Asset name, should be located inside `mods/sounds/` or `assets/sounds/`
 
-### precacheCustomImage(name:String)
+### precacheImage(name:String)
 * `name` - Asset name, should be located inside `mods/images/`
 
 This is mainly used for avoiding a massive game freeze for when the asset first gets used.
