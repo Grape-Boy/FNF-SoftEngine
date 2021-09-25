@@ -1,4 +1,7 @@
 It's highly recommended that you use this function on the `onCreate()` callback.
+
+These functions are mainly used for avoiding a massive game freeze when an asset first gets used.
+
 ### addCharacterToList(name:String, type:String)
 Creates a character for the `'Change Character'` event.
 * `name` - Character name, example: `pico-player`, `mom-car`, `gf`, etc.
@@ -10,4 +13,4 @@ Creates a character for the `'Change Character'` event.
 ### precacheImage(name:String)
 * `name` - Asset name, should be located inside `mods/images/`
 
-This is mainly used for avoiding a massive game freeze for when the asset first gets used.
+NOTE: For now precacheImage is only capable of precaching images inside `mods/`!
