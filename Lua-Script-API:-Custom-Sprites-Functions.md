@@ -1,6 +1,6 @@
 # Creating/Adding/Removing a Lua Sprite
 ### makeLuaSprite(tag:String, image:String, x:Float, y:Float)
-Spawns a Lua Sprite with no animations using the tag `tag`, it will be using the image `image`.png, and will be spawned on position `x`, `y``
+Spawns a Lua Sprite with no animations using the tag `tag`, it will be using the image `image`.png, and will be spawned on position `x`, `y`
 If you want to make a Black screen with no texture, leave `image` field empty and use (luaSpriteMakeGraphic)[]
 
 If another Lua Sprite that exists is already using the tag `tag`, it will be removed.
