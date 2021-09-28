@@ -51,7 +51,7 @@ Do a Tween on an object's color
 * `duration` - How much time it will take for the tween to end
 * `ease` - The tweening method used, example: `linear`, `circInOut`. Check the link on the note i've added up here
 
-Example: To tween Boyfriend's color to Red, you should use `doTweenX('bfColorTween', 'boyfriend', 'FF0000, 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
+Example: To tween Boyfriend's color to Red, you should use `doTweenColor('bfColorTween', 'boyfriend', 'FF0000', 1, 'linear')`, when the tween ends, it will do a callback for `onTweenCompleted('bfColorTween')`
 
 ### runTimer(tag:String, time:Float = 1, loops:Int = 1)
 Runs a timer with a determined duration and loops count.
