@@ -23,7 +23,7 @@ There's four types of LUA Scripts you can run:
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
 * [Example of a Custom Event - Garcello/Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
 * [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/840678333602857040/888568127200305182/Instakill_Note.lua)
-* [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/885704785041440788/890431279277957141/ExampleStage.zip)
+* [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/866856727621795850/893665396937359390/ExampleStage.zip)
 
 FOR MORE ADVANCED USERS:
 * [Play with your Mouse instead of Arrow Keys](https://cdn.discordapp.com/attachments/840678333602857040/888568120728502272/script.lua)
