@@ -21,7 +21,7 @@ There's four types of LUA Scripts you can run:
 * [Animated Sprite Example - Dad clone behind Dad that bops head on Beat hit](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
 * [Dialogue Script - Drop this file + your dialogue.json in your Song's chart folder!](https://cdn.discordapp.com/attachments/866856727621795850/890335034786062336/script.lua)
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
-* [Example of a Custom Event - Garcello/Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
+* [Example of a Custom Event - Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
 * [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/840678333602857040/888568127200305182/Instakill_Note.lua)
 * [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/866856727621795850/893665396937359390/ExampleStage.zip)
 
