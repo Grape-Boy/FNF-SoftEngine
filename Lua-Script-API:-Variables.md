@@ -1,7 +1,8 @@
 ## Lua/Unique variables
-### Note: Those two are the only variables that can be changed by using `= true` or `= false` for now, you will have to use [setProperty()](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Value-Setting-and-Getting-Functions#setpropertyvariablestring-valuedynamic) if you want to change it
+### Note: Those are the only variables that can be changed by using `= true` or `= false` for now, you will have to use [setProperty()](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Value-Setting-and-Getting-Functions#setpropertyvariablestring-valuedynamic) if you want to change the rest of them
 * `luaDebugMode` - Enables debug mode, use `luaDebugMode = true` to enable it. Default value: `false`
 * `luaDeprecatedWarnings` - Tells you if a function/variable is deprecated (shouldn't be used anymore), only works when Debug mode is on, use `luaDeprecatedWarnings = false` to disable it. Default value: `true`
+* `inChartEditor` - Tells you if your script is running on Chart Editor's chart playtest.
 
 ____
 ## Song/Week Variables
@@ -65,6 +66,14 @@ ____
 * `defaultPlayerStrumY3` - Player's default right arrow Y
 * `defaultOpponentStrumX3` - Opponent's default right arrow X
 * `defaultOpponentStrumY3` - Opponent's default right arrow Y
+
+____
+* `defaultBoyfriendX` -  Player's Default X position, defined by the Stage's JSON file.
+* `defaultBoyfriendY` -  Player's Default Y position, defined by the Stage's JSON file.
+* `defaultOpponentX` -  Opponent's Default X position, defined by the Stage's JSON file.
+* `defaultOpponentY` -  Opponent's Default Y position, defined by the Stage's JSON file.
+* `defaultGirlfriendX` - Girlfriend's Default X position, defined by the Stage's JSON file.
+* `defaultGirlfriendY` - Girlfriend's Default Y position, defined by the Stage's JSON file.
 
 ____
 ## Preferences Variables
