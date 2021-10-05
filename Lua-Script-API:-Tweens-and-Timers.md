@@ -11,6 +11,12 @@ Do a tween on a receptor's X position
 ### noteTweenY(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 Do a tween on a receptor's Y position
 
+### noteTweenAngle(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
+Do a tween on a receptor's Angle value
+
+### noteTweenAlpha(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
+Do a tween on a receptor's Alpha value
+
 Works exactly like noteTweenX
 
 # Starting Timer/Tween Functions
@@ -28,6 +34,11 @@ Example: To do a tween to Boyfriend's Scale X, you should use `doTweenX('bfScale
 
 ### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Do a Tween on an object's Y value
+
+Works exactly like doTweenX
+
+### doTweenAngle(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
+Do a Tween on an object's Angle value
 
 Works exactly like doTweenX
 
