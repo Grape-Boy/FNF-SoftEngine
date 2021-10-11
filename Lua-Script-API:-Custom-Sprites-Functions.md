@@ -16,4 +16,4 @@ Adds a Lua Sprite with the specified tag, either in front or behind the characte
 ### removeLuaSprite(tag:String, destroy:Bool = true)
 Removes a Lua Sprite with the specified tag
 * `tag` - The Lua Sprite's tag
-* `destroy` - Specifies if you don't want to use the sprite anymore (Set to `false` if you want to re-add it later)
+* `destroy` - Specifies if you don't want to use the sprite anymore. Default value is `true` (Set to `false` if you want to re-add it later)
