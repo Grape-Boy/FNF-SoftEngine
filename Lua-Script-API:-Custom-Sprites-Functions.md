@@ -13,7 +13,7 @@ If another Lua Sprite that exists is already using the tag `tag`, it will be rem
 ### addLuaSprite(tag:String, front:Bool = false)
 Adds a Lua Sprite with the specified tag, either in front or behind the characters.
 
-### removeLuaSprite(tag:String, destroy:Bool = false)
+### removeLuaSprite(tag:String, destroy:Bool = true)
 Removes a Lua Sprite with the specified tag
 * `tag` - The Lua Sprite's tag
 * `destroy` - Specifies if you don't want to use the sprite anymore (Set to `false` if you want to re-add it later)
