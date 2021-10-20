@@ -7,7 +7,7 @@ There's four types of LUA Scripts you can run:
 
 # API Documentation
 * [Variables](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Variables)
-* [General Functions](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API---General-Functions)
+* [General Functions](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-General-Functions)
 * [Tweens and Timers](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Tweens-and-Timers)
 * [Value Setting and Getting Functions](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Value-Setting-and-Getting-Functions)
 * [Functions for Dialogues and Cutscenes](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Lua-Script-API:-Functions-for-Dialogues-and-Cutscenes)
@@ -18,12 +18,12 @@ There's four types of LUA Scripts you can run:
 * [Template Script with all Callbacks explained](https://cdn.discordapp.com/attachments/885704785041440788/890432876489867264/TemplateScript.lua)
 * [Example of Triggering an Event via Lua - Change Characters on Key Press/Precaching characters](https://cdn.discordapp.com/attachments/866856727621795850/880169101891342366/ChangeCharacterScript.lua)
 * [Tween Example - Boyfriend gets bigger on his turn](https://cdn.discordapp.com/attachments/866856727621795850/880169105087422484/ScaleScript.lua)
-* [Animated Sprite Example - Dad clone behind Dad that bops head on Beat hit](https://cdn.discordapp.com/attachments/866856727621795850/880169107285217341/AnimatedLuaSpritesScript.lua)
+* [Animated Sprite Example - Dad clone behind Dad that bops head on Beat hit](https://cdn.discordapp.com/attachments/866856727621795850/900523260180049940/AnimatedLuaSpriteScript.lua)
 * [Dialogue Script - Drop this file + your dialogue.json in your Song's chart folder!](https://cdn.discordapp.com/attachments/866856727621795850/890335034786062336/script.lua)
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
 * [Example of a Custom Event - Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
-* [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/866856727621795850/895878283445547028/Instakill_Note.zip)
-* [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/866856727621795850/893665396937359390/ExampleStage.zip)
+* [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/866856727621795850/900523258275831820/Instakill_Note.zip)
+* [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/866856727621795850/900523259345371177/ExampleStage.zip)
 
 FOR MORE ADVANCED USERS:
 * [Play with your Mouse instead of Arrow Keys](https://cdn.discordapp.com/attachments/840678333602857040/888568120728502272/script.lua)
