@@ -24,6 +24,7 @@ There's four types of LUA Scripts you can run:
 * [Example of a Custom Event - Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
 * [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/866856727621795850/900525142256525372/Instakill_Note.zip)
 * [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/866856727621795850/900523259345371177/ExampleStage.zip)
+* [setPropertyFromClass - Changing Game Over Sprites/Sounds](https://cdn.discordapp.com/attachments/889357899015540736/901470021652447233/script.lua)
 
 FOR MORE ADVANCED USERS:
 * [Play with your Mouse instead of Arrow Keys](https://cdn.discordapp.com/attachments/840678333602857040/888568120728502272/script.lua)
