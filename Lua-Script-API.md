@@ -22,7 +22,7 @@ There's four types of LUA Scripts you can run:
 * [Dialogue Script - Drop this file + your dialogue.json in your Song's chart folder!](https://cdn.discordapp.com/attachments/866856727621795850/890335034786062336/script.lua)
 * [Video Example - Cutscene on Bopeebo (Story Mode)](https://cdn.discordapp.com/attachments/840678333602857040/888568130283139082/bopeeboTestVideo.zip)
 * [Example of a Custom Event - Opponent Fade](https://cdn.discordapp.com/attachments/840678333602857040/888568125413552168/CustomEvent.zip)
-* [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/866856727621795850/900525142256525372/Instakill_Note.zip)
+* [Example of a Custom Note Type - Instakill Note](https://cdn.discordapp.com/attachments/866856727621795850/903863842763841556/Instakill_Note.zip)
 * [Example of a Custom Stage - Copy of Week 1 Stage made fully in LUA](https://cdn.discordapp.com/attachments/866856727621795850/900523259345371177/ExampleStage.zip)
 * [setPropertyFromClass - Changing Game Over Sprites/Sounds](https://cdn.discordapp.com/attachments/889357899015540736/901470021652447233/script.lua)
 
