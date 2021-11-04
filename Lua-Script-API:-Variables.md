@@ -8,7 +8,7 @@ ____
 ## Song/Week Variables
 * `curBpm` - Current BPM of the Song, shortcut to `getPropertyClass('Conductor', 'bpm')`
 * `bpm` - Starting BPM of the Song, shortcut to `getProperty('SONG.bpm')`
-* `scrollSpeed` - Starting Scroll speed of the Song, shortcut to `getProperty('SONG.bpm')`
+* `scrollSpeed` - Starting Scroll speed of the Song, shortcut to `getProperty('SONG.speed')`
 * `crochet` - Interval between Beat hits
 * `stepCrochet` - Interval between Step hits
 * `songLength` - Song duration in milliseconds
