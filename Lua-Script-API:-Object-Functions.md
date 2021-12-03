@@ -50,8 +50,8 @@ Sets the object's layer position
 * `obj` - Object variable/Lua Sprite tag
 * `position` - New position the object will be in
 
-(note: when changing characters, you must refer to their group)
-ex: `bfGroup`, `gfGroup`, `dadGroup`)
+(**note**: when referring to characters, you must refer to their group)
+`bfGroup`, `gfGroup`, `dadGroup`
 
 ### removeFromGroup(obj:String, index:Int, dontDestroy:Bool = false)
 * `obj` - Group/Array variable
