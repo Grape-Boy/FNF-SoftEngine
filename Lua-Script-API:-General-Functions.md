@@ -54,17 +54,33 @@ _______________________
 ### keyJustPressed(name:String)
 Get if the key `name` just got pressed on the current frame.
 
-Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'accept'`, `'back'`, `'pause'`, `'reset'`
+Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'accept'`, `'back'`, `'pause'`, `'reset'`, `'space'`
 
 ### keyPressed(name:String)
 Get if the key `name` is being held on the current frame.
 
-Keys: `'left'`, `'down'`, `'up'`, `'right'`
+Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'space'`
 
 ### keyReleased(name:String)
 Get if the key `name` was released on the current frame.
 
-Keys: `'left'`, `'down'`, `'up'`, `'right'`
+Keys: `'left'`, `'down'`, `'up'`, `'right'`, `'space'`
+_______________________
+# Mouse Click functions
+### mouseClicked(name:String)
+Get if the mouse button `name` just got pressed on the current frame. leave 'name' blank for left mouse
+
+Buttons: `'left'`, `'right'`, `'middle'`
+
+### mousePressed(name:String)
+Get if the mouse button `name` is being held on the current frame.
+
+Buttons: `'left'`, `'right'`, `'middle'`
+
+### mouseReleased(name:String)
+Get if the mouse button `name` was released on the current frame.
+
+Buttons: `'left'`, `'right'`, `'middle'`
 _______________________
 # Mouse Position Functions
 ### getMouseX(camera:String)
@@ -81,6 +97,10 @@ Triggers an event without you having to chart them.
 * `name` - Event name on Chart Editor
 * `arg1` - Value 1 on Chart Editor
 * `arg2` - Value 2 on Chart Editor
+
+### addLuaScript(path:String)
+Loads another .lua script. Ignore's it's onCreate() function
+* `path` - Path to LUA relative to the base folder
 
 ### getColorFromHex(color:String)
 Get the color decimal ID from an Hexadecimal value (`color`).
