@@ -15,3 +15,19 @@ A: [Read about it here.](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Dia
 
 ### Q: "How can i create a Custom Event?"
 A: [Read this.](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Creating-an-Event)
+
+### Q: "How can i create a Custom Credits?"
+A: create a credits.txt, each line should look like this 
+
+`name::iconname::description::link::color`
+
+for a title, just have the name
+
+EX:
+
+```Main Credits
+Shadow Mario::shadowmario::Main Programmer of Psych Engine::https://twitter.com/Shadow_Mario_::0xFFFFDD33
+BBPanzu::bb-panzu::Assistant Programmer of Psych Engine::https://twitter.com/bbsub3::0xFFFFDD33```
+
+
+
