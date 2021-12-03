@@ -47,6 +47,7 @@ ____
 * `inGameOver` - Player is Dead
 * `mustHitSection` - Tells if the current section is a `Must Hit Section` (from Chart Editor)
 * `altAnim` - Tells if the current section is a `Alt Animtion`Section (from Chart Editor)
+* `gfSection` - Tells if the current section is a `GF Section` (from Chart Editor)
 * `botPlay` - Tells if Botplay is enabled. Shortcut to `getProperty('cpuControlled')`
 
 ____
