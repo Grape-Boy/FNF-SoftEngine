@@ -99,7 +99,7 @@ Triggers an event without you having to chart them.
 * `arg2` - Value 2 on Chart Editor
 
 ### addLuaScript(path:String)
-Loads another .lua script. Ignore's it's onCreate() function
+Loads another .lua script. 
 * `path` - Path to LUA relative to the base folder
 
 ### getColorFromHex(color:String)
