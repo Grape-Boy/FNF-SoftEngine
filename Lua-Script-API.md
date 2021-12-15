@@ -4,6 +4,8 @@ There's four types of LUA Scripts you can run:
 * A Note Type Script, it will only run if the said Note Type is being used on the chart, it should be located inside mods/custom_notetypes/
 * An Event Script, it will only run if the said Event is being used on the chart, it should be located inside mods/custom_events/
 * Song's Script(s), they should be saved inside the song's chart folder, it will only run on this specific song, no matter the difficulty, stage or whatever else.
+* Character Script, it will only be run if the specified character is used on the current song. You can use variables `dadName`, `boyfriendName` and `gfName` to check the current character used's name. (`if dadName == 'pico'` for example)
+* Global Script, it should be saved in mods/Your-Mod-Name/scripts/, it will run in all songs/difficulties, with no exceptions.
 # MOD FOLDER TEMPLATE
 * [Mod Template](https://github.com/ShadowMario/FNF-PsychEngine/raw/main/docs/modTemplate.zip)
 # API Documentation
