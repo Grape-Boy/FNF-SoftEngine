@@ -119,6 +119,20 @@ ___
 ### cameraSetTarget(target:String)
 Makes the camera focus on a specific target
 * `target` - Target can be either `boyfriend` or `dad`
+
+
+### cameraFlash(camera:String, color:String, duration:Float,forced:Bool)
+* `camera` - "game", "hud" or "other"
+* `color` - color of flash
+* `duration` - Time duration for it to flash
+* `forced` - restarts flash or not
+
+### cameraFade(camera:String, color:String, duration:Float,forced:Bool)
+* `camera` - "game", "hud" or "other"
+* `color` - color of fade
+* `duration` - Time duration for it to fade
+* `forced` - restarts fade or not
+
 ____________________
 # Debug Functions
 ### debugPrint(text1, text2, text3, text4, text5)
