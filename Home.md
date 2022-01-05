@@ -32,5 +32,5 @@ BBPanzu::bb-panzu::Assistant Programmer of Psych Engine::https://twitter.com/bbs
 ```
 
 ## TEXTURE ATLAS HELP:
-[Read about it here.](https://github.com/bbpanzu/Flixel-TextureAtlas/blob/main/README.md)
+[Read about it here.](https://github.com/Smokey555/Flixel-TextureAtlas/blob/main/README.md)
 
