@@ -17,7 +17,7 @@ A: [Read about it here.](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Dia
 A: [Read this.](https://github.com/ShadowMario/FNF-PsychEngine/wiki/Creating-an-Event)
 
 ### Q: "How can i create a Custom Credits?"
-A: create a credits.txt and put it in the `mods/data/` or 'mods/My-Mod/data` folder, each line should look like this 
+A: create a credits.txt and put it in the `mods/data/` or `mods/My-Mod/data` folder, each line should look like this 
 
 `name::iconname::description::link::color`
 
