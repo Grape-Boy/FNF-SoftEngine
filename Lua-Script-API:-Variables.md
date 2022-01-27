@@ -80,7 +80,7 @@ ____
 ____
 ## Preferences Variables
 * `downscroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'downScroll')`
-* `middlescroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'middleScroll')`
+* `middlescroll` - Middlescroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'middleScroll')`
 * `framerate` - Current framerate limit. Shortcut to `getPropertyClass('ClientPrefs', 'framerate')`
 * `ghostTapping` - Ghost tapping is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'ghostTapping')`
 * `hideHud` - "Hide HUD" is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'hideHud')`
