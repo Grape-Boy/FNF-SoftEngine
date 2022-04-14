@@ -51,14 +51,14 @@ Sets the object's layer position
 * `position` - New position the object will be in
 
 (**note**: when referring to characters, you must refer to their group)
-`bfGroup`, `gfGroup`, `dadGroup`
+`boyfriendGroup`, `gfGroup`, `dadGroup`
 
 ### removeFromGroup(obj:String, index:Int, dontDestroy:Bool = false)
 * `obj` - Group/Array variable
 * `index` - Member ID
 * `dontDestroy` - Optional variable. Won't clear member from memory, you will probably never ever use this.
 
-Example: TO remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
+Example: To remove the first spawned note from the group you should use `removeFromGroup('notes', 0)`
 _____
 # Scale Functions
 ### setGraphicSize(obj:String, multX:Float, multY:Float = 0)
